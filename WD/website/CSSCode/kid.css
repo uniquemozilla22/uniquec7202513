@@ -1,0 +1,54 @@
+
+.container{
+     width:100%;
+
+}
+.bottom{
+    width:100%;
+  }
+ .dbotton{
+     opacity:1;
+     width:90%;
+     background-color:white;
+     color:black;
+     border: 5px solid black;
+     margin-top:10px;
+
+ }
+ .dbotton:hover{
+     opacity: 0.2;
+     background-color:black;
+     color:white;
+     border: 5px solid black;
+ }
+ .img-responsive2{
+    width: 100%;
+    height: auto;
+ }
+ .buynow{
+   margin:0;
+   margin-left:100px;
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    opacity: 0;
+    text-decoration:none;
+    text-align: center;
+   
+  }
+  .card-img-top{
+      width:50%;
+      margin-right:auto;
+      margin-left:100px;
+  }
+ .sss{
+     margin-bottom:200px;
+ }
+.rsrr{
+    width:100%;
+    opacity:1;
+    margin:0;
+ }

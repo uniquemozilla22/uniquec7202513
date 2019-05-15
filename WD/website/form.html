@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <title>Contact us</title>
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="CSSCode/formcss.css">  
+<script> 
+    $(document).ready(function(){
+      $("#submitbtn").click(function(){
+        $("#showline").slideDown("fast");
+      });
+    });
+    </script> 
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html"> <img class="logo" src ="Images/pumalogooriginal.png" style="width:60px;height:50px;" alt="PUMA Logo"></a>
+              
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                      <li class="nav-item">
+                          <a class="nav-link" href="index.html">HOME</a>
+                        </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="WOMEN.html">WOMEN</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="MEN.html">MEN</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                          <a class="nav-link" href="KID.html">KIDS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="discount.html">DISCOUNT</a>
+                          </li>
+                        
+                          <li class="nav-item active">
+                              <a class="nav-link" href="form.html">CONTACT US<span class="sr-only">(current)</span></a>
+                            </li>
+                  </ul>
+                  <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                  </form>
+                  
+                </div>
+              </nav>
+              <section>
+                
+                  <div class="content">
+                      <h1> PLEASE REGISTER TO MAKE PURCHASE</h1>
+                      <p>All the form should be correctly given. If wrong delivery dont then the company bears no charges</p>
+              </div>
+        <form class="card">
+            <div class="card-body">
+                <div class="form-row ">
+                  <div class="col-md-6 mb-3">
+                    <label for="alpha">First name</label>
+                    <input type="text" class="form-control" id="alpha" placeholder="e.g. Steve" pattern="[a-zA-Z]+" value="" required>
+                  </div>
+                  <div class="col-md-6 mb-3">
+                    <label for="validationDefault02">Last name</label>
+                    <input type="text" class="form-control" id="validationDefault02" placeholder="e.g. Jobs" value="" pattern="[a-zA-Z]+" required>
+                  </div>
+                </div>
+                <div class="form-row">
+                  <div class="col-md-12 mb-3">
+                    <label for="validationDefaultUsername">Username</label>
+                    <div class="input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupPrepend2" >@</span>
+                      </div>
+                      <input type="text" class="form-control" id="validationDefaultUsername" placeholder="e.g.FrankdRousevelt" pattern="[a-zA-Z0-9]+" aria-describedby="inputGroupPrepend2" required>
+                    </div>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label id ="inputEmail4validationDefault01">Email</label>
+                    <input type="email" class="form-control" pattern="^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$" id="inputEmail4" placeholder="e.g.uniqgaming26@gmail.com" value="" required>
+                  </div>
+                  <div class="form-group col-md-6">
+                    <label id ="inputPassword4validationDefault01">Password</label>
+                    <input type="password" class="form-control" id="inputPassword4" placeholder="Password" value="" required pattern="[a-zA-Z0-9]+">
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label id ="inputAddressvalidationDefault01">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" value="" required>
+                </div>
+                <div class="form-group">
+                  <label id ="inputAddress2validationDefault01">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor" value="" required>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-md-6">
+                    <label id ="inputCityvalidationDefault01">City</label>
+                    <input type="text" class="form-control" id="inputCity" value="" required>
+                  </div>
+                  <div class="form-group col-md-4">
+                     <label id ="inputCity2validationDefault01">State</label>
+                    <input type="text" class="form-control" id="inputCity2" value="" required>
+                    
+                  </div>
+                  <div class="form-group col-md-2">
+                    <label id ="inputZipvalidationDefault01">Zip</label>
+                    <input type="text" class="form-control" id="inputZip" value="" required>
+                  </div>
+                </div>
+              <button type="submit" class="btn btn-primary onclick" style="width:100%;" id ="submitbtn">SUBMIT</button>
+            </div>
+            <div class="content SLIDE" id="showline">
+              <h1>YOU HAVE SUCESSFULLY REGISTERED TO THE PUMA PAGE NOW ENJOY SHOPPING.</h1>
+            </div>
+          
+
+              </form>
+             
+            </section>
+            <footer>
+              <div class="container-fluid socialMedia">
+                <a href="" ><ion-icon name="logo-facebook"></ion-icon></a>
+                <a href="" ><ion-icon name="logo-twitter"></ion-icon></a>
+                <a href="" ><ion-icon name="logo-google"></ion-icon></a>
+                <a href="" ><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="" ><ion-icon name="logo-youtube"></ion-icon></a>
+                <a href="" > <ion-icon name="logo-instagram"></ion-icon></a>
+                  <a href="" ><ion-icon name="logo-pinterest"></ion-icon></a>
+                <p>Posted by: YOGESH BHATTARAI</p>
+            <p>Contact information: <a href="mailto:uniq.funkii@outlook.com">YOGESH BHATTARAI</a> If some problem arises.</p>   
+            </div> 
+              
+          </footer>
+          <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+          <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+    
+</html>

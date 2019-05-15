@@ -1,0 +1,56 @@
+.navbar{
+    position:fixed;
+    padding:0;
+    z-index:500;
+  top:0;
+    width:100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav-link{
+    font-size:20px;
+   
+    margin-left:15px;
+}
+.card{
+    margin:100px;
+    margin-left:auto;
+    margin-right:auto;
+    width:80%;
+    
+    
+}
+.socialMedia{
+    margin:0;
+    margin-top:100px;
+    padding:0;
+    margin-top:20px;
+    background:#C0C0C0;
+  font-size:20px;
+  bottom:0;
+}
+.content {
+    margin-top:100px;
+    font-family: 'oswald', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    color: black;
+    width: 100%;
+    padding: 20px;
+  }
+  .content p{
+      font-size:15px;
+  }
+  .content h1{
+      font-size: 30px;
+  }
+  @media (max-width: 1000px) {
+  
+    section{
+        margin-top:400px;
+    }
+}
+@media (max-width: 770px) {
+  
+    section{
+        margin-top:100px;
+    }
+}

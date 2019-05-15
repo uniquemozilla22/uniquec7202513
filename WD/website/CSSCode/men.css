@@ -1,0 +1,28 @@
+.motorola{
+  margin:0px;
+  margin-top:0;
+  margin-bottom:0;
+  
+}
+.EXTRASPECIALS{
+  position:relative;
+  text-align: center;
+  width:300px;
+  background-color:black;
+  width:100%;
+  color:white;
+}
+.heading{
+  padding:20px;
+ 
+}
+footer a{
+  text-decoration: none;
+}
+@media (max-width: 1000px) {
+ 
+  .motorola{
+    margin-left:0;
+  }
+}
+
